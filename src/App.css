@@ -1,0 +1,223 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.user_login_page {
+  padding: 10px 0px;
+}
+
+.login_page {
+  border: 1px solid #d4d5d5;
+  width: 30%;
+  margin: 20px auto;
+  padding: 20px 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.login_page>h2 {
+  padding: 10px 0px;
+  font-size: 28px;
+  font-weight: 700;
+  color: #404753;
+}
+
+.login_page>input {
+  padding: 10px 15px;
+  margin-top: 10px;
+  font-size: 14px;
+}
+
+.login_btn {
+  padding: 12px 18px;
+  margin-top: 15px;
+  background-color: #47565ed9;
+  color: #fff;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.home_parent_div {
+  padding: 10px 10px;
+  border-bottom: 1px solid #b9b9b9;
+  display: flex;
+  justify-content: space-between;
+}
+
+.profile_icon {
+  position: relative;
+}
+
+.popup_data {
+  position: absolute;
+  top: 50px;
+  right: 0px;
+  padding: 20px;
+  background-color: #fff;
+  box-shadow: 0px 0px 20px #bdbcbc;
+  width: 250px;
+  border: 1px solid #d5d4d4;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.user_name {
+  margin-right: 5px;
+}
+
+.popup_form {
+  display: flex;
+  flex-direction: column;
+  padding: 10px 20px;
+}
+
+.popup_form>h3 {
+  padding: 10px 0px;
+  font-size: 25px;
+}
+
+.popup_form>input {
+  padding: 10px 15px;
+  margin-top: 8px;
+}
+
+.popup_btn {
+  padding: 12px 18px;
+  margin-top: 15px;
+  background-color: #47565ed9;
+  color: #fff;
+  border: none;
+  font-size: 14px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+
+.page_title {
+  padding-top: 17%;
+}
+
+.view_btn {
+  background-color: #3B68EA;
+  padding: 10px 25px;
+  border: none;
+  border-radius: 6px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin-top: 5px;
+}
+
+.product_list {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  padding: 50px 0px;
+  list-style: none;
+}
+
+.product_list>li {
+  width: 21%;
+  margin: 2%;
+  padding: 10px 10px 15px 10px;
+  border: 1px solid #ddd;
+}
+
+.product_list>li>div {
+  width: 100%;
+  height: 200px;
+  overflow: hidden;
+  position: relative;
+}
+
+.product_list>li>div>img {
+  position: absolute;
+  width: 150px;
+  height: 150px;
+  transform: translate(-50%, -50%);
+  /*min-height: 130px;*/
+  min-width: 150px;
+  top: 50%;
+  left: 50%;
+}
+
+.product_btn {
+  padding: 6px 15px;
+  background-color: #3B68EA;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  margin-top: 10px;
+  border-radius: 2px;
+}
+
+.single_poduct_container {
+  display: flex;
+  margin: 50px auto;
+  width: 70%;
+  justify-content: space-between;
+}
+
+.single_product_icons>img {
+  width: 100%;
+}
+
+.single_product_content {
+  text-align: left;
+  padding-left: 100px;
+}
+
+.single_product_content>h3 {
+  font-size: 25px;
+  padding-bottom: 15px;
+}
+
+.single_product_content>p {
+  font-size: 18px;
+  padding-bottom: 10px;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
